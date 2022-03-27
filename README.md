@@ -26,13 +26,13 @@ The aim of this exercise is to demonstrate your problem solving and understandin
 | Expected        |     Actual      |                                                                 Result |
 | --------------- | :-------------: | ---------------------------------------------------------------------: |
 | "abc"           |      "abc"      |                                                             _No error_ |
-| "abcef"         |      "abc"      |           Throws error with message 'Expected "abcef" but found "abc"' |
+| "abcdef"        |      "abc"      |          Throws error with message 'Expected "abcdef" but found "abc"' |
 | 1               |        1        |                                                             _No error_ |
 | 1               |        2        |                     Throws error with message 'Expected 1 but found 2' |
 | 1               |       '1'       | Throws error with message 'Expected type number but found type string' |
 | ['a', 'b', 'c'] | ['a', 'b', 'c'] |                                                             _No error_ |
 | ['a', 'b']      | ['a', 'b', 'c'] |        Throws error with message 'Expected array length 2 but found 3' |
-| ['a', 'b']      |   ['a', 'd']    |                 Throws error with message 'Expected "b" but found "d"' |
+| ['a', 'b']      |   ['a', 'c']    |                 Throws error with message 'Expected "b" but found "c"' |
 
 ### Instructions for running the tests
 
